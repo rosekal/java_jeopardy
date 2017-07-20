@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Customer Styling*/
+
+body {
+	background-image: url(../images/homepage-background.jpg);
+	font-family: 'Bungee', cursive;
+}
+
+header {
+	width: 100%;
+	height: 4rem;
+	background-color: navy;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav {
+	float: right;
+	padding-top: 1.5rem;
+	padding-right: 1rem; 
+}
+
+label {
+	padding-right: .3rem;
+}
+
+#username, #password {
+	padding-right: 1rem;
+	border-radius: 5px;
+}
+
+#username {
+	margin-right: 2rem;
+}
+
+#submit, #signUp {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 6rem;
+}
+
+section#logo-section {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+img#logo {
+  margin: 0 auto;
+  vertical-align: middle;
+  padding-top: 10rem;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter:         drop-shadow(5px 5px 5px #222); 
+  width: 80%;
+  display: block; 
+}
+
+img#gameLogo {
+  width: 200px;
+  margin: 0 auto;
+  position: absolute;
+  left: 35%;
+  margin-left: 100px;
+  display: block;
+}
+
+
+/*Table*/
+.tg-wrap, .tg {
+  width: 100%;
+  height: 635px;
+  table-layout: fixed;
+}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
+.tg td{font-family:Arial, sans-serif;font-size:1.5rem;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:black;background-color:#e8edff;}
+.tg th{font-family:Arial, sans-serif;font-size:1.5rem;font-weight:bold;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:gold;background-color:#324BC1;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}};
+
+/*Final*/
+h1#finalTitle {
+	font-size: 7rem; 
+	color: #800000;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222); 
+}
+
+section#finalBody {
+	margin: 0 auto;
+	width: 1000px;
+	text-align: center;
+        margin: 0 auto;
+        display: block;
+}
+
+div#finalQuestionBox {
+	width: 700px;
+	min-height: 500px;
+	height: auto;
+	background-color: darkblue;
+	border-radius: 15px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222); 
+    margin: 0 auto;
+    display: block;
+}
+
+p#finalQuestionText, #questionLbl, #answerLbl {
+	font-size: 5rem;
+	color: gold;
+}
+
+#formSection {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#formSection #category {
+  width: 400px;
+}
+
+#formSection #questionID {
+  width: 150px;
+}
+
+#formSection #question {
+  width: 500px;
+}
+
+#formSection #answer, #answerText {
+  width: 500px;
+}
+
+#questionLbl, #answerLbl {
+  color: gold;
+  font-size: 3rem;
+}
+
+#answerText {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+#questionPlaceHolder, #answerIs, #money {
+  color: white;
+}
+
+.loginWrong {
+  margin-top: -300px;
+}
+
+#roundNumber {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+#playerAmount {
+  color: gold;
+}
+
+#correctAnswer {
+  color: white;
+  font-size: 2rem;
+}
+
+button.pure-button.pure-button-primary {
+  width: 13rem;
+  height: 4rem;
+  font-size: 2rem;
+}
+
+#money {
+  font-size: 2rem;
+  color: gold;
+}
+
+.tg-baqh button {
+  font-size: 1.5rem;
+  -moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+  -webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+  background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+  background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+  background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+  background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+  background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+  background-color:#7892c2;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+  border:1px solid #4e6096;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:19px;
+  padding:12px 37px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #283966;
+}
+.tg-baqh button:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+  background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+  background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+  background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+  background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+  background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+  background-color:#476e9e;
+}
+.tg-baqh button:active {
+  position:relative;
+  top:1px;
+}
+
+#answerIs {
+  font-size: 1.8rem;
+}
+
+form#earningsForm p {
+  font-size: 1.8rem;
+  color: gold;
+}
